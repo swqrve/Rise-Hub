@@ -1,0 +1,5 @@
+name: RiseHubCore
+version: ${project.version}
+main: me.swerve.hub.RiseHub
+author: Swerve
+description: Hub Core made by Swerve.
