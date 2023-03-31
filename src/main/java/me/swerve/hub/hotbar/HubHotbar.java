@@ -16,8 +16,7 @@ public class HubHotbar {
     private final ItemCreator serverSelector = new ItemCreator(Material.COMPASS, 1).setName("&6Server Selector").addLore(Collections.singletonList("&6Select a server to join!"));
     @Getter
     private final ItemCreator enderButt = new ItemCreator(Material.ENDER_PEARL, 1).setName("&5Ender Butt").addLore(Collections.singletonList("&5Fly through the air on an enderpearl!"));
-    @Getter
-    private final ItemCreator toggleVisibility = new ItemCreator(Material.INK_SACK, 1).setData(10).setName("&aToggle Visibility").addLore(Collections.singletonList("&7Right click to toggle visibility"));
+    @Getter private final ItemCreator toggleVisibility = new ItemCreator(Material.INK_SACK, 1).setData(10).setName("&aToggle Visibility").addLore(Collections.singletonList("&7Right click to toggle visibility"));
 
     public HubHotbar() {
         instance = this;

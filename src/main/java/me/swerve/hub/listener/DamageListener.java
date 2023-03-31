@@ -16,7 +16,7 @@ public class DamageListener implements Listener {
 
         if (!(e.getEntity() instanceof Player)) return;
         if (e.getCause() == EntityDamageEvent.DamageCause.VOID) {
-            e.getEntity().teleport(new Location(Bukkit.getWorld("Lobby"), 12, 54, -0.5, 90, -1.3f));
+            e.getEntity().teleport(new Location(Bukkit.getWorld("Lobby"), 0.5, 50, 0.5, -180, -1.3f));
             ((Player) e.getEntity()).playSound(e.getEntity().getLocation(), Sound.valueOf("LEVEL_UP"), 1f, 1);
         }
     }
